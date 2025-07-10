@@ -1,0 +1,17 @@
+{
+  "name": "test-tx-builder",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@mysten/sui": "1.28.2",
+    "bucket-protocol-sdk": "^0.15.2",
+    "@virtue/sdk": "https://github.com/Virtue-CDP/virtue-sdk.git#a5ca4b1806c83ced4a5b09d4dd3c644b74f8382a"
+  }
+}
